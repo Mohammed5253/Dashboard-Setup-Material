@@ -5,8 +5,12 @@
 // let event_url ="http://playnprint.com/awardproject/events/"; 
 
 
-let base_url = "http://192.168.100.104:8080/api/";
-let image_url ="http://192.168.100.104:8080/api/public/upload/event_logo/";
-let event_url ="http://192.168.100.104:8080/awardproject/events/";
+// let base_url = "http://192.168.100.104:8080/api/";
+// let image_url ="http://192.168.100.104:8080/api/public/upload/event_logo/";
+// let event_url ="http://192.168.100.104:8080/awardproject/events/";
+
+let base_url = "http://localhost:1050/api/";
+let image_url ="http://localhost:1050/api/public/upload/event_logo/";
+let event_url ="http://localhost:1050/awardproject/events/";
 
 export { base_url,image_url,event_url};
